@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="weatherApp">
+	<head>
+		<meta charset='UTF-8' />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+		<title>Weather Application</title>
+	</head>
+	<body>
+		<script src="bundle.js"></script>
+
+        <header>
+			<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">AngularJS</a>
+				</div>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#/"><i class="fa fa-home"></i> Home</a></li>
+				</ul>
+			</div>
+			</nav>
+		</header>
+
+        <div class="container">
+        	<div ng-view></div>
+		</div>
+
+	</body>
+</html>

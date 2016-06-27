@@ -1,0 +1,5 @@
+<div>Results for <b>{{ cityName }}</b></div>
+<br>
+<div ng-repeat="object in weatherResult.list">
+	<weather-search-result weather-day="object" convert-to-standard="convertToFahrenheit(temp)" convert-to-date="convertDate(dt)" date-format="MMM d, y"></weather-search-result>
+</div>

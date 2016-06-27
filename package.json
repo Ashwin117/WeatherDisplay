@@ -1,0 +1,21 @@
+{
+  "name": "WeatherApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack public/app.js public/bundle.js --progress --colors --watch",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-resource": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
